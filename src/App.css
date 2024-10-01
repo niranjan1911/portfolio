@@ -257,3 +257,26 @@ footer a:hover {
     font-size: 2rem;
   }
 }
+/* Responsive Design */
+@media (max-width: 767px) {
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-content p {
+    font-size: 1.2rem;
+  }
+
+  .skills-icon {
+    font-size: 3rem;
+  }
+
+  .section h2 {
+    font-size: 2rem;
+  }
+
+  /* Add margin to buttons for mobile view */
+  .hero-content .btn {
+    margin-bottom: 10px; /* Adjust this value to your preference */
+  }
+}

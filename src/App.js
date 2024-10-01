@@ -131,7 +131,7 @@ function App() {
             </button>
           </a>
           <a href="#contact">
-            <button className="btn btn-primary btn-lg" data-aos="zoom-in">Get In Touch <FaPhoneSquare/></button>
+            <button className="btn btn-primary btn-lg ms-md-2" data-aos="zoom-in">Get In Touch <FaPhoneSquare/></button>
           </a>
         </div>
         <div className="scroll-indicator">
