@@ -3,7 +3,7 @@ import './App.css';
 import emailjs from 'emailjs-com';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import { FaArrowDown, FaDownload } from 'react-icons/fa';
+import { FaArrowDown, FaContao, FaDownload, FaPhone, FaPhoneSquare, FaVoicemail } from 'react-icons/fa';
 import { FaChartLine, FaCode, FaDatabase, FaTags, FaFlask } from 'react-icons/fa';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -126,12 +126,12 @@ function App() {
           <h1 data-aos="fade-down">Niranjan Patil</h1>
           <p data-aos="fade-up">Analytics Implementation Specialist</p>
           <a href="/resume.pdf" download>
-            <button className="btn btn-primary btn-lg" data-aos="zoom-in">
+            <button className="btn btn-primary btn-lg" data-aos="zoom-in" style={{ marginRight: '20px' }}>
               Download Resume <FaDownload />
             </button>
-          </a> <br></br><br></br>
+          </a>
           <a href="#contact">
-            <button className="btn btn-primary btn-lg">Get In Touch</button>
+            <button className="btn btn-primary btn-lg" data-aos="zoom-in">Get In Touch <FaPhoneSquare/></button>
           </a>
         </div>
         <div className="scroll-indicator">
